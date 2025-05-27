@@ -1,0 +1,63 @@
+.nav-level-nplusone, .nav-container, .row.lower, .nav-sm, .claim, .nav-language-container, .nav-mobile-menu, .nav-level-nplusone {
+    display: none!important
+}
+
+#logos {
+    display: block;
+    width: 100%
+}
+
+.main {
+    width: 100%
+}
+
+.module {
+    width: 100%
+}
+
+.complement {
+    width: 100%
+}
+
+.js .element>li {
+    border: none;
+    padding: 0
+}
+
+.js ul.element>li.active>h3, .js ul.element>li.inactive>h3, .js ul.element>li>h3, .js ul.element>li.active>.element-content, .js ul.element>li.inactive>.element-content, .js ul.element>li>.element-content {
+    padding: 0;
+    width: 100%;
+    margin: inherit;
+    position: static;
+    display: block;
+    border: none
+}
+
+.js ul.element>li.active {
+    border: none
+}
+
+.js .element>li h3::after {
+    display: none
+}
+
+.js .element>li>section {
+    display: block
+}
+
+* {
+    outline: none !important;
+    border: none
+}
+
+footer .row.campaign {
+    display: block
+}
+
+.cris_nav {
+    display: none!important
+}
+
+.cris_selected, .cris_selector {
+    display: block!important
+}

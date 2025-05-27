@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "files": ["./Webformular/Login/session.php", "./config/config.php"],
+        
+        "psr-4": {
+            "Classes\\": "./classes"
+        }
+    },
+    "require": {
+        "mikehaertl/php-pdftk": "^0.10.4",
+        "phpmailer/phpmailer": "^6.5"
+    }
+}

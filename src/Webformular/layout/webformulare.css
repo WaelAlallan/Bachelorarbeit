@@ -1,0 +1,360 @@
+ 
+/** enthält Design und sämtliche Änderungen, die von main.css abweichen */
+/***********************************************************************/
+
+@font-face {
+    font-family: 'Meta Pro';
+    src: url('./MetaPro-Fonts/MetaPro-Norm.eot');
+    src: local('MetaPro-Norm'), url('./MetaPro-Fonts/MetaPro-Norm.eot?#iefix') format('embedded-opentype'), url('./MetaPro-Fonts/MetaPro-Norm.woff2') format('woff2'), url('./MetaPro-Fonts/MetaPro-Norm.woff') format('woff'), url('./MetaPro-Fonts/MetaPro-Norm.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Meta Pro';
+    src: url('./MetaPro-Fonts/MetaPro-NormIta.eot');
+    src: local('MetaPro-NormIta'), url('./MetaPro-Fonts/MetaPro-NormIta.eot?#iefix') format('embedded-opentype'), url('./MetaPro-Fonts/MetaPro-NormIta.woff2') format('woff2'), url('./MetaPro-Fonts/MetaPro-NormIta.woff') format('woff'), url('./MetaPro-Fonts/MetaPro-NormIta.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Meta Pro';
+    src: url('./MetaPro-Fonts/MetaPro-Bold.eot');
+    src: local('MetaPro-Bold'), url('./MetaPro-Fonts/MetaPro-Bold.eot?#iefix') format('embedded-opentype'), url('./MetaPro-Fonts/MetaPro-Bold.woff2') format('woff2'), url('./MetaPro-Fonts/MetaPro-Bold.woff') format('woff'), url('./MetaPro-Fonts/MetaPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Meta Pro';
+    src: url('./MetaPro-Fonts/MetaPro-BoldIta.eot');
+    src: local('MetaPro-BoldIta'), url('./MetaPro-Fonts/MetaPro-BoldIta.eot?#iefix') format('embedded-opentype'), url('./MetaPro-Fonts/MetaPro-BoldIta.woff2') format('woff2'), url('./MetaPro-Fonts/MetaPro-BoldIta.woff') format('woff'), url('./MetaPro-Fonts/MetaPro-BoldIta.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+.module-content form label {
+    color: #696b72;
+}
+
+
+.module-content form:not(#ie) input[type=checkbox]+label, .module-content form:not(#ie) input[type=radio]+label, .element-content form:not(#ie) input[type=checkbox]+label, .element-content form:not(#ie) input[type=radio]+label {
+    cursor: pointer;
+    background: #ededed;
+    color: #696b72;
+    padding: 5px;
+    margin-right: 5px;
+    border: 5px solid #ededed;
+    display: block
+}
+
+/*  .module-content form:not(#ie) input[type=radio]:checked+label, .element-content form:not(#ie) input[type=radio]:checked+label  */
+.module-content form:not(#ie) input[type=checkbox]:checked+label, .element-content form:not(#ie) input[type=checkbox]:checked+label {
+    background: #8c9598;
+    border: 5px solid #8c9598;
+    color: #fff;
+}
+
+.module-content form:not(#ie) input[type=checkbox]:checked+label:hover, .element-content form:not(#ie) input[type=checkbox]:checked+label:hover, .module-content form:not(#ie) input[type=radio]:checked+label:hover, .element-content form:not(#ie) input[type=radio]:checked+label:hover {
+    color: #696b72;
+    background: #ededed;
+    border: 5px solid #ededed;
+}
+
+
+
+/*-----Krankmeldung--------------------------------------------*/
+
+.ueberschrift {
+    color: #006c66;
+}
+
+.namenfeld_krank {
+    color: rgb(0, 0, 0);
+}
+
+/* #alert0, #alert1, #alert2, #alert3, #alert4, #alert5, #alert6 */
+#krankmeldungsformular label.alert {
+    display: none;
+    color: rgb(240, 20, 20);
+    font-size: 14px;
+}
+
+#inline_span {
+    display: inline-block;
+    overflow: hidden;
+    padding: 1px 10px 1px 10px;
+}
+
+#verlassen_um {
+    border: solid;
+    border-width: 1px;
+    /* border-color: #a6acad;
+  */
+    border-color: rgb(75, 73, 73);
+    width: 90px;
+    font-size: 16px;
+}
+
+
+#ja_label {
+    float: left;
+    clear: none;
+    display: block;
+
+}
+
+.datum_krank {
+    color: #595959;
+    font-size: 16px;
+    color: black;
+}
+
+#bemerkungen {
+    height: 100px;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+
+/*-----Urlaubsantrag--------------------------------------------*/
+
+#urlaubsformular label.alert {
+    display: none;
+    color: rgb(240, 20, 20);
+    font-size: 14px;
+}
+
+#urlaubsform {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+#namenfeld_urlaub {
+    width: 255px;
+    margin-bottom: 40px;
+    color: black;
+
+}
+
+.urlaub_span1, .urlaub_span2, .urlaub_span3, .urlaub_span4 {
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    float: left;
+}
+
+.urlaub_span1 {
+    width: 50%;
+    margin-top: 0px;
+}
+
+.urlaub_span2 {
+    margin-top: 15px;
+}
+
+.urlaub_span3 {
+    margin-top: 30px;
+}
+
+#urlaub_ende_label {
+    margin-left: 10px;
+}
+
+#urlaub_beginn {
+    width: 240px;
+    margin-left: 42px;
+    color: black;
+    font-size: 16px;
+}
+
+#urlaub_ende {
+    width: 240px;
+    margin-left: 15px;
+    color: black;
+    font-size: 16px;
+}
+
+#urlaub_dauer {
+    width: 150px;
+    margin-left: 29px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    /* color:#944043;
+    font-weight: bold;
+   */
+}
+
+#vertreter {
+    width: 240px;
+    margin-left: 20px;
+}
+
+#urlaub_anspruch, #urlaub_rest, #urlaub_erhalten, #urlaub_saldo {
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 16px;
+    /* font-weight: bold;
+   */
+}
+
+#urlaub_saldo {
+    color: black;
+    font-weight: bold;
+}
+
+/*----Gesundmeldung-------------------------------------------------*/
+
+#gesundmeldungsformular label.alert {
+    display: none;
+    color: rgb(240, 20, 20);
+    font-size: 14px;
+}
+
+/*
+#gesundmeldungsformular label {
+    color: #696b72;
+}*/
+
+#wiederaufnahme {
+    color: black;
+    font-size: 16px;
+}
+
+#gesundmeldung_row {
+    margin-top: 80px;
+}
+
+.namenfeld_gesund {
+    margin-bottom: 35px;
+    color: black;
+}
+
+/*----verwaltung.php-------------------------------------------------*/
+#sign_btn {
+    font-size: 18px;
+    color: #05918a;
+}
+
+#return_msg {
+    color: #cc1e23;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+#signatur_form label.alert {
+    display: none;
+    color: rgb(240, 20, 20);
+    font-size: 14px;
+}
+
+#tabelle2 {
+    margin-top: 500px;
+
+}
+
+/*===========Dialog window=================*/
+#body-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms ease-in-out;
+    z-index: 2;
+}
+
+.dialog {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #dee2e6;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 8px 8px 16px rgba(255, 255, 255, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms ease-in-out;
+    border: 4px solid rgb(109, 147, 150);
+    z-index: 3;
+}
+
+#body-overlay.sichtbar, .dialog.sichtbar {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#signieren-dialog {
+    width: 40%;
+}
+
+#dialog-schliessen-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    line-height: 32px;
+    color: #006c66;
+}
+
+#digital_ID {
+    display: none;
+}
+
+#upload_btn {
+    background-color: #006c66;
+    color: white;
+    padding: 0.5rem;
+    font-size: 14px;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#ID {
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.password-container {
+    position: relative;
+    width: 50%;
+}
+
+.password-field {
+    width: 100%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+#password_toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-20%);
+    cursor: pointer;
+}
+
+#datei_ausgewaehlt {
+    margin-left: 10px;
+}
+
+
+#submit_btn {
+    margin-top: 50px;
+}
+
+
+
+

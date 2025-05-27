@@ -1,0 +1,22 @@
+
+
+AuthType Basic
+AuthName "Restricted Area"
+AuthDBMUserFile /www/data/usersso
+AuthDBMGroupFile /www/data/groups
+AuthBasicProvider dbm
+# Require dbm-group @member@uni-muenster.de  # oder  w_alal01 beckelu ...
+ 
+
+
+
+# access some files only for system Admins
+
+<Files verwaltung.php>
+AuthType Basic
+AuthName "only for Admins"
+AuthDBMUserFile /www/data/usersso
+AuthDBMGroupFile /www/data/groups
+AuthBasicProvider dbm
+# Require dbm-group w_alal01 beckelu  # nur Vorgesetzte 
+</Files>

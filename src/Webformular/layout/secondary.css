@@ -1,0 +1,23 @@
+.message>.banderole>.text, .nav-audience>li>a, .nav-audience>li.current, .nav-audience>li>span, .nav-mobile-toggle, .nav-search-mobile-toggle, .secondary_background, .content th, .layout2017.start .module.secondary.invers, .layout2017.start header.secondary+div .module.invers, .layout2017.start header.secondary+div .module .metainfo, .layout2017.start .wwu_owlcarousel.secondary+div .module.invers, .layout2017.start .wwu_owlcarousel.secondary+div .module .metainfo, .layout2017.videoportal .module.secondary.invers, .module-content .chosen-container .chosen-results li.highlighted, .layout2017.start .secondary .owl-caption::before, .layout2017.start .secondary .owl-caption::after, .layout2017.start .secondary .owl-caption, .layout2017.start .secondary .owl-wrapper-outer, .layout2017.start .secondary .owl-item figure::after, .layout2017.start .secondary .owl-carousel figure::after, .layout2017.start .module.secondary .metainfo, .secondary .owl-stage-outer, .content .gsc-search-button-v2, .content .gsc-search-button-v2, .content .gsc-search-button-v2:hover, .content .gsc-search-button-v2:focus {
+    background-color: #6f2729
+}
+
+.content th.subhead {
+    background: #935d5f
+}
+
+.element-content a, .module-content a, .module-content a .p-name, .nav-search input[type=text], .nav-search input[type=search], .nav-breadcrumb .current, hr, #logos .textmarke a, .secondary, .nav-audience .nav-second-level>li>a, .gsa_top_result_icon, a .gcsc-find-more-on-google, .pagination a, .layout2017.start .module.invers.secondary .metainfo, .layout2017.start .module.invers.secondary .metainfo *, .layout2017.start .secondary>.module-content a, .layout2017.videoportal .module.invers.secondary .metainfo, .layout2017.videoportal .module.invers.secondary .metainfo *, .layout2017.start header.secondary+div .module.invers .metainfo, .layout2017.start header.secondary+div .module.invers .metainfo *, .layout2017.start header.secondary+div .module>.module-content a, .layout2017.start .wwu_owlcarousel.secondary+div .module.invers .metainfo, .layout2017.start .wwu_owlcarousel.secondary+div .module.invers .metainfo *, .layout2017.start .wwu_owlcarousel.secondary+div .module>.module-content a, .js .videoportal .chapters li, .content .module .gs-webResult.gs-result a.gs-title, .content .gsc-results .gsc-cursor-box .gsc-cursor-page, .cse_datenschutz a {
+    color: #6f2729
+}
+
+.module .gs-webResult.gs-result a.gs-title:link, .module .gs-webResult.gs-result a.gs-title:link b, .module .gs-imageResult a.gs-title:link, .module .gs-imageResult a.gs-title:link b, .module .gs-result .gs-title, .module .gs-result .gs-title * {
+    color: #6f2729!important
+}
+
+.message p, .secondary_border, .gsa_top_result_icon, .nav-audience>li:hover {
+    border-color: #6f2729
+}
+
+.secondary .module-content:first-child {
+    border-top-color: #6f2729
+}
