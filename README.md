@@ -1,4 +1,4 @@
-## Bachelorarbeit: <br> Web-basierter Selfservice für die Bearbeitung von Krankmeldungen und Urlaubsanträgen
+## Bachelorarbeit: <br> Web-basierter Selfservice für die Bearbeitung von Krankmeldungen und Urlaubsanträgen mit digitaler Signatur-Funktion
 
 ## Beschreibung & Ziel
 Web-Anwendung zur Erstellung und Bearbeitung von Krank-, Geundmeldungen und Urlaubsanträgen mit der Funktion der digitalen Unterschrift.<br>
